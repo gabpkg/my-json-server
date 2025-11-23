@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ranan Gabriel",
+      "username": "ranan",
+      "email": "ranan@example.com",
+      "phone": "55-99123-4567"
+    },
+    {
+      "id": 2,
+      "name": "Maria Souza",
+      "username": "maria",
+      "email": "maria@example.com",
+      "phone": "55-98111-2222"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Minhas Fotos"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Viagem de Férias"
+    }
+  ],
+  "photos": [
+    {
+      "id": 1,
+      "albumId": 1,
+      "title": "Natureza 1",
+      "url": "https://picsum.photos/id/1015/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1015/150/150"
+    },
+    {
+      "id": 2,
+      "albumId": 1,
+      "title": "Natureza 2",
+      "url": "https://picsum.photos/id/1016/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1016/150/150"
+    },
+    {
+      "id": 3,
+      "albumId": 2,
+      "title": "Praia",
+      "url": "https://picsum.photos/id/1025/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1025/150/150"
+    },
+    {
+      "id": 4,
+      "albumId": 2,
+      "title": "Montanhas",
+      "url": "https://picsum.photos/id/1036/600/400",
+      "thumbnailUrl": "https://picsum.photos/id/1036/150/150"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Bem-vindo ao app",
+      "body": "Primeiro post gerado para o aplicativo."
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Atualizações",
+      "body": "Aqui vão ficar as novidades do sistema."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "name": "Comentário 1",
+      "email": "user1@example.com",
+      "body": "Gostei muito!"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "name": "Comentário 2",
+      "email": "user2@example.com",
+      "body": "Muito bom!"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "name": "Comentário 3",
+      "email": "user3@example.com",
+      "body": "Legal!"
+    }
+  ]
+}
